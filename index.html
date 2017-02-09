@@ -9,7 +9,7 @@
         $(() => {
             $.ajaxSetup({ cache: false });
             $.get("fabiojunqueira.txt", (data) => {
-                var typer = new Typer(20, $(data), $("#console"));
+                new Typer(20, $(data), $("#console"));
             });
         });
     </script>

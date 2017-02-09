@@ -4,11 +4,13 @@
     <title>Fábio Junqueira</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.rawgit.com/fjunqueira/typer.js/f96ad12911476ecdafbe1491962c553306bcfa16/typer.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/fjunqueira/typer.js/4ba8280e3458d4e1d57e338e3cb9df045d671186/typer.js"></script>
     <script>
         $(() => {
             $.ajaxSetup({ cache: false });
-            var typer = new Typer(20, "fabiojunqueira.txt");
+            $.get("fabiojunqueira.txt", (data) => {
+                var typer = new Typer(20, $(data), $("#console"));
+            });
         });
     </script>
 </head>

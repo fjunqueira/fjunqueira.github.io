@@ -1,0 +1,7 @@
+<span speed="0" id="a">fabio@junqueira</span><span speed="0">:</span><span speed="0" id="b">~</span><span speed="0" id="c">$</span> <span speed="100">cat fabiojunqueira.txt<span><br/><br/> Hi, I'm Fábio Junqueira.
+<p>I'm a great software engineer<span wait="300">,</span> and I'm also a not so great surfer<span wait="400"></span>.<span wait="400"></span>.<span
+        wait="400"></span>.<span wait="400"></span> :)<span wait="400"></span></p>
+<p>I love video games, movies, beaches, mountains and learning new stuff.</p>
+If you would like to get in touch with me, whether it be for working on an awesome new software project, or to just go to
+the beach and catch some waves, feel free to send me an email. My email address is: <a href="mailto:fabio.junqueira@outlook.com">fabio.junqueira@outlook.com </a>
+<p>And if you haven't already, be sure to check out my <a href="https://www.linkedin.com/in/f%C3%A1bio-blumm-junqueira-a501307b">LinkedIn</a>    page and some of my personal projects on <a href="https://github.com/fjunqueira">Github</a>.</p>

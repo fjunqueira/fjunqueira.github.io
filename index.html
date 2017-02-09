@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>Fábio Junqueira</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/fjunqueira/typer.js/master/typer.js"></script>
+    <script>
+        $(() => {
+            $.ajaxSetup({ cache: false });
+            var typer = new Typer(20, "fabiojunqueira.txt");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="console"></div>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Unity WebGL Player | DestroyAllEarthlings</title>
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+</head>
+
+<body class="template">
+    <canvas class="emscripten fullscreen" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+  <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    backgroundColor: "#222C36",
+    splashStyle: "Light",
+    dataUrl: "Release/game.data",
+    codeUrl: "Release/game.js",
+    asmUrl: "Release/game.asm.js",
+    memUrl: "Release/game.mem",
+  };
+  </script>
+  <script src="Release/UnityLoader.js"></script>
+  <script type="text/javascript">
+  
+$(document).ready(function() {
+    $("body").css("overflow","hidden");
+    $("canvas").attr("width", $(window).width());
+    $("canvas").attr("height", $(window).height());
+    $("canvas").css("max-width", $(window).width());
+    $("canvas").css("max-height", $(window).height());
+    $("canvas").css("min-width", $(window).width());
+    $("canvas").css("min-height", $(window).height());
+});
+  </script>
+</body>
+
+</html>
